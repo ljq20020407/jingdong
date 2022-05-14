@@ -1,0 +1,164 @@
+body {
+    background-color: #f4f4f4
+}
+
+header {
+    width: 100%;
+    height: 170px;
+}
+
+header > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+                 /*导航上面的文字*/
+#footer {
+    position: absolute;
+    margin:0 auto;
+    right: 100px;
+}
+#footer>a{
+    text-decoration: none;
+    color: #999999;
+    border: 2px solid #e3e4e5;
+    border-left-color: #cccccc;
+    margin-right: 10px;
+    font-size: 13px;
+}
+                    /*山东的定位*/
+#shanDong{
+    position: absolute;
+    left: 100px;
+    width: 35px;
+    height: 20px;
+    /*background-color: lightsalmon;*/
+}
+#shanDong>a{
+    text-decoration: none;
+    color: #999999;
+    size: 12px;
+}
+/*****************************************/
+header > div:nth-child(1) > div {
+    width: 1200px;
+    height: 100%;
+    /*background-color: lightseagreen;*/
+    margin: 0 auto;
+    text-decoration: none;
+}
+/*搜索框*/
+#souSuo>input[type='text']{
+    position: absolute;
+    width: 490px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    top:60px;
+    left: 500px;
+}
+#souSuo>input[type='submit']{
+    width:58px;
+    height: 36px;
+    position: absolute;
+    border:0;
+    top:62px;
+    left: 940px;
+    background-color: #e1251b;
+}
+#souSuo>a>img{
+    position: absolute;
+    width: 145px;
+    height:140px ;
+    top:30px;
+    left: 300px;
+}
+header>div:nth-child(2) {
+    width: 100%;
+    height: 140px;
+    background-color: #fff
+}
+
+header > div:nth-child(2) > div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: lightsalmon*/
+}
+                   /*搜索框下面那一列*/
+#sb{
+    width: 100%;
+    height: 20px;
+    /*background-color:lightskyblue;*/
+    position:absolute;
+    top: 100px;
+    left: 500px;
+}
+#sb>a{
+    text-decoration: none;
+    color: #999;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-right: 8px;
+}
+                  /*搜索框下面大字的一列*/
+#wenZi{
+    width: 100%;
+    height: 20px;
+    /*background-color: lightseagreen;*/
+    position: absolute;
+    top:140px;
+    left: 500px;
+
+}
+#wenZi>a{
+    text-decoration: none;
+    color: #333333;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-right: 20px;
+}
+                        /*购物车*/
+#shopping{
+    width:132px;
+    height:36px;
+    /*background-color: lightpink;*/
+    position: absolute;
+    right: 500px;
+    top:62px;
+    border: 2px solid #eee;
+}
+#shopping>a {
+    text-decoration: none;
+    color: #e1251b;
+    position: absolute;
+    top:8px;
+    right: 5px;
+}
+                          /*二维码*/
+#ma>img{
+    position: absolute;
+    top:8px;
+}
+/************************************************/
+#content {
+    width: 1200px;
+    height: 10000px;
+    margin: 10px auto 0;
+    position: relative
+}
+/*高度将来要删掉*/
+#wwy {
+    width: 100%;
+    height: 480px;
+    background-color: lightgreen
+}
+
+/********************************************************/
+#elevator_list {
+    width: 58px;
+    height: 348px;
+    position: sticky;
+    top: 100px;
+    background-color: red;
+    transform: translate(1220px)
+}
